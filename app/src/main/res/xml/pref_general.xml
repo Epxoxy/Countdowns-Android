@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:summary="Control logs"
+        android:key="@string/debug_switch_key"
+        android:title="@string/debug" />
+    <ListPreference
+        android:defaultValue="@string/lang_en"
+        android:key="@string/lang_pref_key_str"
+        android:entries="@array/languages_str"
+        android:entryValues="@array/language_values_str"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="@string/english"
+        android:dialogTitle="@string/dialog_title"
+        android:title="@string/language" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:summary="Skip home activity"
+        android:key="@string/skip_home_key"
+        android:title="@string/skip_home"/>
+</PreferenceScreen>

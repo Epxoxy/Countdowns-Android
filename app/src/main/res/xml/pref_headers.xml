@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.xiaox.countdowns.activities.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/basic_setting"
+        android:summary="@string/basic_setting">
+    </header>
+    <header
+        android:title="@string/debug"
+        android:id="@+id/debugSwitch"
+        android:summary="@string/debug">
+    </header>
+    <header
+        android:title="Others"
+        android:summary="Others"></header>
+    <header
+        android:title="About"
+        android:summary="About this application"></header>
+</preference-headers>

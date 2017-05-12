@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_delete">删除</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_clear_glide_cache">清理Glide缓存</string>
+    <string name="menu_add">添加</string>
+    <string name="set_time_btn_text">设置时间</string>
+    <string name="event_item_not_exist">编辑项不存在</string>
+    <string name="blur">模糊</string>
+    <string name="name">名称</string>
+    <string name="celebration">到时描述</string>
+    <string name="time">时间</string>
+    <string name="set_bg_btn_text">设置背景</string>
+    <string name="set_fore_btn_text">字体颜色</string>
+    <string name="add_btn_text">添加</string>
+    <string name="scale_version">模糊放大</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="delete_item_tips">删除该项?</string>
+    <string name="cant_empty">不能为空!</string>
+    <string name="file">文件</string>
+    <string name="color">颜色</string>
+    <string name="please_set_time">请设置时间!</string>
+    <string name="set_time">设置时间</string>
+    <string name="bg_from">设置背景从</string>
+    <string name="hr">时</string>
+    <string name="min">分</string>
+    <string name="delete_from_gallery_tips">确定从程序图库中删除?</string>
+    <string name="preview">预览</string>
+    <string name="language">语言</string>
+    <string name="ensure_change_lang">更改语言需要重启程序，确定更改?</string>
+    <string name="save">保存</string>
+    <string name="dialog_title">选择语言</string>
+    <string name="debug">Debug</string>
+    <string name="gallery">图库</string>
+    <string name="separator"></string>
+    <string name="skip_home">跳过主页</string>
+    <string name="hum">哼哼哼，我不想</string>
+    <string name="basic_setting">基本设置</string>
+    <string name="sure">当然</string>
+    <string name="radius">半径</string>
+    <string name="sampling">采样</string>
+    <string name="dynamic">动态的</string>
+    <string name="dynamic_apply">动态应用</string>
+    <string name="log">日志</string>
+    <string-array name="festivals_array">
+        <item>"Before Lin's Day"</item>
+        <item>父亲节</item>
+        <item>母亲节</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>除夕</item>
+        <item>元旦</item>
+        <item>愚人节</item>
+        <item>劳动节</item>
+        <item>儿童节</item>
+        <item>教师节</item>
+        <item>国庆</item>
+    </string-array>
+    <string-array name="celebration_array">
+        <item>"Tomorrow Lin's Day"</item>
+        <item>父亲节</item>
+        <item>母亲节</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>除夕</item>
+        <item>元旦</item>
+        <item>愚人节</item>
+        <item>劳动节</item>
+        <item>儿童节</item>
+        <item>教师节</item>
+        <item>国庆</item>
+    </string-array>
+    <string name="save_as">另存为</string>
+    <string name="error_input">错误输入</string>
+    <string name="set_max_sampling">设置最大样本值</string>
+    <string name="picture">图片</string>
+    <string name="empty">空</string>
+    <string name="clear_all">清空</string>
+    <string name="clear">清除</string>
+    <string name="requires_restart">需要重启</string>
+    <string name="delete">删除</string>
+    <string name="rebuild_festival">重新创建节日</string>
+</resources>

@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Countdowns</string>
+    <string name="sure">Sure</string>
+    <string name="radius">Radius</string>
+    <string name="sampling">Sampling</string>
+    <string name="add_btn_text">Add</string>
+    <string name="basic_setting">Basic Settings</string>
+    <string name="bg_from">Background from</string>
+    <string name="blur">Blur</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_empty">cannot be empty!</string>
+    <string name="celebration">Celebration</string>
+    <string name="color">Color</string>
+    <string name="debug">Debug</string>
+    <string name="delete_from_gallery_tips">Delete from gallery of this application?</string>
+    <string name="delete_item_tips">Delete this item?</string>
+    <string name="dialog_title">Select language</string>
+    <string name="event_item_not_exist">Event item not exist</string>
+    <string name="file">File</string>
+    <string name="gallery">Gallery</string>
+    <string name="hr">hr</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_clear_glide_cache">Clear Glide Cache</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="min">min</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="please_set_time">Please set time!</string>
+    <string name="preview">Preview</string>
+    <string name="save">Save</string>
+    <string name="scale_version">Scale-Version</string>
+    <string name="separator">&#160;</string>
+    <string name="set_bg_btn_text">Background</string>
+    <string name="set_fore_btn_text">Foreground</string>
+    <string name="set_time">Set time</string>
+    <string name="set_time_btn_text">Set time</string>
+    <string name="time">Time</string>
+    <string name="dynamic">Dynamic</string>
+    <string name="dynamic_apply">Dynamic apply</string>
+    <string name="skip_home_key">Skip_Home_key</string>
+    <string name="skip_home">Skip home</string>
+    <string name="hum">Hum hum hum, I dont want</string>
+    <string name="sharedPref_stored_key">sharedPref_stored_key</string>
+    <string name="ensure_change_lang">Change language needs to restart application, change it?</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="lang_pref_key_str">lang_key_str</string>
+    <string name="lang_en">lang_en</string>
+    <string name="lang_cn">lang_cn</string>
+    <string-array name="languages_str">
+        <item>@string/english</item>
+        <item>中文</item>
+    </string-array>
+    <string-array name="language_values_str">
+        <item>@string/lang_en</item>
+        <item>@string/lang_cn</item>
+    </string-array>
+    <string name="clear">Clear</string>
+    <string name="log">Log</string>
+    <string name="not_set">notSet</string>
+
+    <integer name="linsDay">0</integer>
+    <integer name="fathersDay">1</integer>
+    <integer name="mothersDay">2</integer>
+    <integer name="spring">3</integer>
+    <integer name="lantern">4</integer>
+    <integer name="dragon">5</integer>
+    <integer name="moon">6</integer>
+    <integer name="doubleNinth">7</integer>
+    <integer name="newYearEve">8</integer>
+    <integer name="newYearsDay">9</integer>
+    <integer name="foolsDay">10</integer>
+    <integer name="mayDay">11</integer>
+    <integer name="childrensDay">12</integer>
+    <integer name="teachersDay">13</integer>
+    <integer name="nationalDay">14</integer>
+    <string-array name="festivals_array">
+        <item>"Before Lin's Day"</item>
+        <item>"Father's Day"</item>
+        <item>"Mother's Day"</item>
+        <item>Spring Festival</item>
+        <item>Lantern Festival</item>
+        <item>Dragon Boat Festival</item>
+        <item>Moon Festival</item>
+        <item>Double Ninth Day</item>
+        <item>New Years Eve</item>
+        <item>"New Year's Day"</item>
+        <item>"April Fools Day"</item>
+        <item>May Day</item>
+        <item>"Children's Day"</item>
+        <item>"Teacher's Day"</item>
+        <item>National Day</item>
+    </string-array>
+    <string-array name="celebration_array">
+        <item>"Tomorrow Lin's Day"</item>
+        <item>"Father's Day"</item>
+        <item>"Mother's Day"</item>
+        <item>Spring Festival</item>
+        <item>Lantern Festival</item>
+        <item>Dragon Boat Festival</item>
+        <item>Moon Festival</item>
+        <item>Double Ninth Day</item>
+        <item>New Years Eve</item>
+        <item>"New Year's Day"</item>
+        <item>"April Fools Day"</item>
+        <item>May Day</item>
+        <item>"Children's Day"</item>
+        <item>"Teacher's Day"</item>
+        <item>National Day</item>
+    </string-array>
+
+    <string name="save_as">Save as</string>
+    <string name="error_input">Error input</string>
+    <string name="set_max_sampling">Set Max Sampling</string>
+    <string name="picture">Picture</string>
+    <string name="empty">Empty</string>
+    <string name="clear_all">Clear All</string>
+    <string name="debug_switch_key">debug_switch</string>
+    <string name="requires_restart">Requires Restart</string>
+    <string name="delete">Delete</string>
+    <string name="rebuild_festival">Rebuild festival</string>
+
+    <string name="event_item_notification_title_template">Event item: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="event_item_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

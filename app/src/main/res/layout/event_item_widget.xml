@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/widgetImage"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Long Long Title For My Testing"
+                android:id="@+id/widgetName"
+                android:textSize="20dp"
+                android:textColor="@color/fontColor"
+                android:fontFamily="@string/font_family_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <LinearLayout
+                    android:id="@+id/widgetTimeRoot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/widgetDays"
+                        android:textAlignment="center"
+                        android:textSize="24dp"
+                        android:text="000"
+                        android:textColor="@color/fontColor"
+                        android:fontFamily="@string/font_family_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=" days, "
+                        android:id="@+id/widgetDaysLabel"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18dp"
+                        android:fontFamily="@string/font_family_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/widgetHours"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontColor"
+                        android:textSize="24dp"
+                        android:text="23"
+                        android:fontFamily="@string/font_family_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=" hours, "
+                        android:id="@+id/widgetHoursLabel"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18dp"
+                        android:fontFamily="@string/font_family_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="24dp"
+                        android:text="59"
+                        android:id="@+id/widgetMinutes"
+                        android:fontFamily="@string/font_family_light"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=" minutes"
+                        android:id="@+id/widgetMinutesLabel"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontColor"
+                        android:textSize="18dp"
+                        android:fontFamily="@string/font_family_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!--LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="7dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textSize="24dp"
+                            android:text="59"
+                            android:id="@+id/widgetSeconds"
+                            android:fontFamily="@string/font_family_light"
+                            android:textAlignment="center"
+                            android:textColor="@color/fontColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="seconds"
+                            android:id="@+id/widgetSecondsLabel"
+                            android:textAlignment="center"
+                            android:textColor="@color/fontColor"
+                            android:textSize="18dp"
+                            android:fontFamily="@string/font_family_light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout-->
+                </LinearLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/widgetCelebration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:fontFamily="@string/font_family_light"
+                    android:textColor="@color/fontColor"
+                    android:textAlignment="center" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:paddingTop="10dp">
+                <TextView
+                    android:text="0000-12-29"
+                    android:id="@+id/widgetTarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="@string/font_family_light"
+                    android:textColor="@color/fontColor"
+                    android:textAlignment="center" />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/widgetId"
+                    android:textColor="@color/fontColor"
+                    android:layout_width="wrap_content"
+                    android:paddingBottom="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

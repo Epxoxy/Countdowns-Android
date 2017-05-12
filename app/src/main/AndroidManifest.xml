@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xiaox.countdowns">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.example.xiaox.countdowns.activities.GlideConfiguration"
+            android:value="GlideModule" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.debug.RecyclerMasterActivity" />
+        <activity android:name=".activities.DetailActivity" />
+        <activity
+            android:name=".activities.EventManageActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.GalleryActivity" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/menu_settings" />
+        <activity android:name=".activities.debug.LogActivity" />
+        <activity
+            android:name=".activities.debug.BlurActivity"
+            android:label="Blur" />
+        <activity android:name=".activities.debug.DebugNavActivity" />
+        <activity android:name=".activities.debug.SamplingBlurActivity" />
+        <activity android:name=".activities.ListViewMasterActivity" />
+
+        <receiver android:name=".widget.EventItemWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.example.xiaox.widget.action.opacity.updated" />
+                <action android:name="com.example.xiaox.widget.action.items.updated" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/event_item_widget_info" />
+        </receiver>
+
+        <receiver android:name=".receivers.AlarmReceiver">
+        </receiver>
+
+        <service
+            android:name=".widget.WidgetUpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".widget.WidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.DialogActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogTransparent"
+            android:launchMode="singleInstance">
+        </activity>
+    </application>
+
+</manifest>
